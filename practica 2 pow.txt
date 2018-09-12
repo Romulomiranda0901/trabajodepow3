@@ -1,0 +1,16 @@
+lista el caribe
+for(i=0;i<=20;i++){
+var caribe = document.getElementsByTagName("tr");var caribe2= caribe[1].getElementsByTagName("li");var v= caribe2[i]; console.log(v.textContent);
+}
+lista america central
+for(i=21;i<=27;i++){
+var AmericaC = document.getElementsByTagName("tr");var AmericaC2= AmericaC[1].getElementsByTagName("li");var v= AmericaC2[i]; console.log(v.textContent);
+}
+
+lista america del sur
+for(i=28;i<=40;i++){
+var AmericaS = document.getElementsByTagName("tr");var AmericaS2= AmericaS[1].getElementsByTagName("li");var v= AmericaS2[i]; console.log(v.textContent);
+}
+
+lisa america del norte
+var AmericaN = document.getElementsByTagName("tr");var AmericaN2= AmericaN[1].getElementsByTagName("li");var v= AmericaN2[41]; console.log(v.textContent);
